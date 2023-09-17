@@ -1,9 +1,13 @@
 import './App.css'
+import NavBar from './components/NavBar/NavBar'
+// import Daisy from './components/DaisyNav/Daisy'
 
 function App() {
 
   return (
     <>
+    <NavBar></NavBar>
+      {/* <Daisy></Daisy> */}
       <h1 className='text-7xl bg-red-600'>Vite + React</h1>
       <div className="stats shadow">
   
