@@ -2,7 +2,6 @@ import PriceOption from "../PriceOption/PriceOption";
 
 const PriceOptions = () => {
 
-    
         const priceOptions = [
           {
             "id": "basic_membership",
@@ -45,7 +44,7 @@ const PriceOptions = () => {
     return (
         <div className="m-12">
             <h2 className="text-5xl">Best prices in the town</h2>
-            <div className="grid grid-cols-3 gap6">
+            <div className="grid md:grid-cols-3 gap-6">
             {
                 priceOptions.map(option => <PriceOption key={option.id} option={option}> </PriceOption>)
             }
